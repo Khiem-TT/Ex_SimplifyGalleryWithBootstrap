@@ -1,0 +1,22 @@
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 0 6px;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
+}
